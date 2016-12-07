@@ -1,0 +1,101 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  min-width: 600px;
+}
+.blue{
+  background-image: linear-gradient(to right,#52799C,#396287);
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+.login{
+  background-image: linear-gradient(#688DAD,#4B769B);
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+  width: 85px;
+  line-height: 2px;
+  border: 0.5px solid grey;
+  border-radius: 2px;
+  font-size: 14px;
+  box-shadow: .5px .5px 1px rgba(0,0,0,0.5);
+}
+.home{
+  float: left;
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.log{
+float: right;
+padding-right: 5px;
+}
+.phone{
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  height: 450px;
+}
+.main{
+  position: absolute;
+  left: 50%;
+  top: 32%;
+  width: 450px;
+  background: white;
+  padding: 20px 40px;
+  height: 200px;
+  font-size: 15px;
+  box-shadow: .5px .5px 1px rgba(0,0,0,0.5);
+  border-bottom: 0;
+  border-width: 0.1px;
+    border-style: solid;
+    -webkit-border-image:
+      -webkit-gradient(linear, 0 0, 0 50%, from(grey), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+      -webkit-linear-gradient(grey, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(grey, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+      -o-linear-gradient(grey, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to bottom, grey, rgba(0, 0, 0, 0)) 1 100%;
+}
+h2{
+  color: #1c5380;
+}
+.badge{
+  margin: 10px;
+}
+nav{
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 20%;
+}
+li{
+  display: inline;
+  list-style: none;
+  font-size: 14px;
+  color: #83A0B9;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: bold;
+}
+.copy{
+  color: grey;
+}
